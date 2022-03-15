@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-width: 300px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: gray;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 35px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: red;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #3B3B3B;
+    /* font-style: italic; */
+}
+
+input:last-child {
+    margin-bottom: 0;
+}
+
+input, textarea {
+    font-size: 18px;;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 150px;
+}
+
+
+

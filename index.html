@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Formspree</title>
 </head>
 <body>
-    <h1>Formspree</h1>
+    <div class="container">
+        <h1>Formspree</h1>
+        <form id="contactform" method="POST">
+            <input type="text" placeholder="Escriba aqu&iacute; su nombre">
+            <input type="email" placeholder="Escriba aqu&iacute; su correo electr&oacute;nico">
+            <textarea placeholder="D&eacute;jenos su mensaje"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </div>
 </body>
 </html>
